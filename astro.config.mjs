@@ -7,8 +7,10 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
     output: 'static',
     trailingSlash: 'always',
-    site: 'https://devidev.io',
+    site: 'https://HarolSastoque.github.io/HarolSastoque',
+    base: '/HarolSastoque/', // 👈 Agrega esta línea
 
+    
     // Single page, no prefetch needed
     prefetch: false,
 
