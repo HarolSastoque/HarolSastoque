@@ -3,10 +3,11 @@ import { Picture } from 'astro:assets';
 import ProfilePicture from '../assets/profile.png';
 
 const profile = {
-    name: 'Dejan Vi.',
-    title: 'Full Stack Developer',
-    location: 'Munich, Germany',
-    description: 'Passionate web developer focused on creating clean, efficient, and scalable web applications with a modern tech stack. Specialized in Angular, TypeScript, and Supabase, delivering responsive and intuitive user interfaces. Even my name includes "dev".'
+    name: 'Harol Sastoque',
+    title: 'Software Quality Assurance: Manual & Automation Testing',
+    location: 'Bogotá, Colombia',
+    description: 'Passionate Quality Assurance developer focused on creating clean, efficient, and scalable web applications with a modern tech stack.',
+    cvUrl: '/HarolSastoque/cv-harol-sastoque.pdf' // Ruta al PDF en public/
 };
 ---
 
@@ -14,6 +15,7 @@ const profile = {
 
     <div class="flex flex-col sm:flex-row gap-4 sm:items-center">
 
+        {/* Imagen de perfil */}
         <Picture
             src={ProfilePicture}
             formats={['webp']}
@@ -25,8 +27,7 @@ const profile = {
         />
 
         <div>
-
-            <h1 class="text-2xl font-extrabold mb-1 inline-block relative text-text-primary">
+            <h1 class="text-2xl font-extrabold mb-1 text-text-primary">
                 {profile.name}
             </h1>
 
@@ -35,16 +36,32 @@ const profile = {
             </p>
 
             <p class="flex items-center justify-center sm:justify-start text-sm text-gray-400">
-                <svg class="-mt-0.5 inline mr-2"fill=none height=14 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 viewBox="0 0 24 24"width=14 xmlns=http://www.w3.org/2000/svg><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx=12 cy=10 r=3></circle></svg>
+                <svg class="-mt-0.5 inline mr-2" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
                 {profile.location}
             </p>
-
         </div>
 
     </div>
 
-    <p class="text-sm leading-relaxed mt-4 text-gray-400">
+    <p class="text-sm leading-relaxed text-gray-400">
         {profile.description}
     </p>
+
+    {/* Botón de CV (NUEVO) */}
+    <a 
+        href={profile.cvUrl} 
+        download 
+        class="mt-4 px-4 py-2 text-sm font-medium text-white bg-primary rounded-lg hover:bg-primary/90 transition-colors w-full sm:w-auto text-center flex items-center justify-center gap-2"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Descargar CV
+    </a>
 
 </div>
