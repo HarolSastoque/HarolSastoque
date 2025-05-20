@@ -14,7 +14,7 @@ Soy **Harol Yovany Sastoque González**, Analista de Calidad de Software con exp
 - ✉️ [hard.sgo@hotmail.com](mailto:hard.sgo@hotmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/harolsastoque/)
 - 🧑‍💻 [GitHub](https://github.com/HarolSastoque)
-- 📄 [Hoja de vida (PDF)](./cv-harol-sastoque.pdf)
+- 📄 [Hoja de vida (PDF)](./HAROL%20SASTOQUE%20GONZALEZ%20MAIN.pdf) 
 
 
 
