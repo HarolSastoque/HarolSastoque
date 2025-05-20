@@ -1,6 +1,6 @@
 # Harol Sastoque – Portafolio Profesional
 
-🚀 Sitio en vivo: [harolsastoque.github.io](https://harolsastoque.github.io)
+🚀 Sitio en vivo: [harolsastoque.github.io](https://harolsastoque.github.io/HarolSastoque/)
 
 Soy **Harol Yovany Sastoque González**, Analista de Calidad de Software con experiencia en pruebas funcionales, APIs y automatización. Este sitio web fue creado como parte de mi portafolio profesional, utilizando la tecnología Astro y desplegado en GitHub Pages.
 
