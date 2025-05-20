@@ -1,73 +1,63 @@
-# Astro Developer Portfolio Template
-A minimal, easy-to-customize developer portfolio template built with [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com/). No JavaScript in final build.
+# Harol Sastoque – Portafolio Profesional
 
-## Demo
-Check out a real-world example: [devidev.io](https://devidev.io)
+🚀 Sitio en vivo: [harolsastoque.github.io](https://harolsastoque.github.io)
 
-![Astro Developer Portfolio Template - About Preview | devi|dev|io](assets/preview-about.png)
+Soy **Harol Yovany Sastoque González**, Analista de Calidad de Software con experiencia en pruebas funcionales, APIs y automatización. Este sitio web fue creado como parte de mi portafolio profesional, utilizando la tecnología Astro y desplegado en GitHub Pages.
 
-![Astro Developer Portfolio Template - Projects Preview | devi|dev|io](assets/preview-projects.png)
+---
 
-## Features
-- No bundled JavaScript – optimized for performance and speed.
-- Fully responsive – mobile-friendly and adaptable across all devices.
-- SEO & Social Media Ready – includes OpenGraph, Twitter, and DublinCore metadata.
-- 100/100 Google PageSpeed Score – for both mobile and desktop.
-- Code highlighting – clean and readable syntax with [Shiki](https://github.com/shikijs/shiki).
-- Developer Portfolio & Projects Showcase – display your work with ease.
-- Code Editor-Inspired Design – modern and developer-friendly aesthetics.
+## 👨‍💻 Sobre mí
 
-## Tech Stack
+- 📍 Bogotá, Colombia
+- 🧪 QA Manual y Automatización
+- 📞 +57 312 4578473
+- ✉️ [hard.sgo@hotmail.com](mailto:hard.sgo@hotmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/harolsastoque/)
+- 🧑‍💻 [GitHub](https://github.com/HarolSastoque)
+- 📄 [Hoja de vida (PDF)](./HAROL%20SASTOQUE%20GONZALEZ%20MAIN.pdf)
+
+---
+
+## 💼 Experiencia
+
+### Inovait – QA Manual (Mayo 2024 – Enero 2025)
+- Pruebas funcionales/manuales en productos empresariales.
+- Validación de APIs con Postman.
+- Participación en ceremonias Scrum, documentación técnica y de usuario.
+
+### CreateMe SAS – QA Manual (2022–2023)
+- Pruebas en proyectos para marcas como Fender, Adidas y Michael Kors.
+- Diseño de matrices de pruebas y gestión de bugs en Jira.
+- Validación de despliegues con Bitbucket.
+
+### ConWare – Claro (2022)
+- Pruebas funcionales en apps móviles y plataformas de autogestión.
+- Participación en definición de historias de usuario.
+
+---
+
+## 🛠️ Habilidades
+
+- **Lenguajes y herramientas:** Selenium · Postman · JMeter · SQL · Git · Azure DevOps · Jira · Bitbucket
+- **Testing:** Funcional, regresión, exploratorio, APIs REST
+- **Frameworks:** Cypress (en estudio), Karate (en estudio)
+- **Idiomas:** Español (nativo), Inglés (Conversacional)
+
+---
+
+## 🧰 Tecnologías del sitio
+
+Este portafolio fue construido usando:
+
 - [Astro](https://astro.build/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Shiki](https://github.com/shikijs/shiki)
+- HTML / Markdown
+- Desplegado con [GitHub Pages](https://pages.github.com/)
 
-## Getting Started
+---
 
-```sh
-# 1. Clone the repository
-git clone https://github.com/devidevio/astro-developer-portfolio .
+## 🎯 Objetivo
 
-# 2. Install dependencies
-npm install
-
-# 3. Run the development server
-npm run dev
-
-# 4. Build for production
-npm run build
-
-# Deploy the contents of the `./dist` folder wherever you like.
-```
-
-## Customization
-### Site & Domain Configuration
-- Modify `astro.config.mjs` to update your `site` settings, including metadata for SEO.
-
-### Theme Customization
-- Adjust the primary theme color in `tailwind.config.js`, to fit your branding.
-
-### Updating Content & SEO
-Edit the **Frontmatter** variables in these files:
-- `src/layouts/Layout.astro` – General page info (title, SEO, etc.)
-- `src/components/Socials.astro` – Update your social media links.
-- `src/components/Profile.astro` – Personal profile information.
-- `src/components/ContentProjects.astro` – Projects/portfolio section content.
-- `src/components/ContentAbout.astro` – About section content.
-
-### Profile Picture
-- Replace `/src/assets/profile.png` with your own image.
-
-### Logo & OpenGraph Image
-- Update these files:
-  - `/public/img/logo.svg` (your logo)
-  - `/public/img/meta.png` (your OpenGraph image)
-
-Need a free OpenGraph image?
-- https://tailwind-generator.com/og-image-generator/generator
-
-### Sitemap & Robots.txt
-- Adjust `/public/robots.txt` to match your domain.
-
-## ⭐ Contributing
-Feel free to fork, customize, and contribute to this project. If you find it useful, leaving a star would be greatly appreciated.
+Estoy en búsqueda activa de oportunidades como QA Manual o Automatizador Junior. Me interesa seguir desarrollando habilidades en pruebas automatizadas, herramientas CI/CD y metodologías ágiles.
+---
+> “La calidad no es un acto, es un hábito.” – Aristóteles
